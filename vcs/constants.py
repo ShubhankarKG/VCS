@@ -1,2 +1,5 @@
 VCS_FOLDER_NAME = ".vcs"
 DEFAULT_BRANCH = "master"
+
+COMMIT_FULL = "full"
+COMMIT_CUMULATIVE = "cumu"
