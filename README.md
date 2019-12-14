@@ -1,5 +1,5 @@
-# VCS: A Git Clone
-A basic clone of Git
+# VCS
+A Version Control System
 
 ## Current
 - [ ] Init
