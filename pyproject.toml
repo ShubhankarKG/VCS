@@ -1,0 +1,52 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "vcs"
+home-page    = "https://github.com/AliabbasMerchant/VCS"
+keywords     = "A Version Control System"
+license      = "AGPL-3.0-or-later"
+description-file = "README.md"
+
+[project]
+name = "vcs"
+version = "0.1.0"
+description = "A Version Control System"
+authors = [
+    "Aliabbas Merchant <merchantaliabbas@gmail.com>",
+    "Pratik Parbhu <email>",
+    "Shubhankar Gupta <email>",
+    "Bhavya Sheth <email>"
+]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+python = "^3.7"
+homepage = "https://github.com/AliabbasMerchant/VCS"
+repository = "https://github.com/AliabbasMerchant/VCS"
+# documentation = "https://github.com/MartinThoma/infer_pyproject"
+
+keywords = ["version control", "vcs", "cli"]
+
+classifiers = [
+	"Development Status :: In Progress",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Information Technology",
+	"Intended Audience :: Computer Engineers",
+
+	"Topic :: Scientific/Engineering",
+	"Topic :: Version Control",
+	"Topic :: System :: Files",
+    "Topic :: Software Development",
+
+	"License :: OSI Approved :: AGPL-3.0-or-later",
+
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3 :: Only"
+]
+
+requires-python = ">=3.7"
+
+# Unfortunately these currently need to be duplicated from `requirements.txt`
+requires = [
+]
