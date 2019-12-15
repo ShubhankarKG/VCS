@@ -1,13 +1,13 @@
 import argparse
-from init import init as it
+from init import init
 
 
 def main():
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
 
-    init = subparsers.add_parser('init')
-    init.set_defaults(func=it)
+    init_var = subparsers.add_parser('init')
+    init_var.set_defaults(func=init)
 
     add = subparsers.add_parser('add')
     add.set_defaults(func=lambda: print("add"))
