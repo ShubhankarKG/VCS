@@ -58,3 +58,17 @@ data =
     list of changes
     (list of changes [lineNo -> (+ or -) change])
 ```
+
+#### File Structure - init.py
+This file is used as a starting point for our Version Control. 
+The file contains two functions for handling the init request.
+```
+check_init.py
+init.py
+```
+Specifically, `init.py` creates a new folder in the current working directory named `vcs` within
+which there are the following contents:
+*  `nodes` folder for storing hashes
+*   `dag, stage, config` files for processing purposes. 
+
+`check_init.py` is a helper function that checks whether the above listed files are present in current working directory.
