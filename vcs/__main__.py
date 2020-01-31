@@ -1,6 +1,6 @@
 import argparse
 from init import init
-
+from diff import diff
 
 def main():
     parser = argparse.ArgumentParser()
@@ -8,6 +8,9 @@ def main():
 
     init_var = subparsers.add_parser('init')
     init_var.set_defaults(func=init)
+
+    diff_var = subparsers.add_parser('diff')
+    diff_var.set_defaults(func=diff)
 
     add = subparsers.add_parser('add')
     add.set_defaults(func=lambda: print("add"))
