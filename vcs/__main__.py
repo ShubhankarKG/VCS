@@ -2,6 +2,7 @@ import argparse
 from init import init
 from diff import diff
 
+
 def main():
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers()
